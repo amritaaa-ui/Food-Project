@@ -198,8 +198,16 @@ h3{
     width: 300px;
     margin: 20px 10px;
     border-radius: 10px;
+    transition: all 0.5s ease;
+    
 }
 
 .row img:hover{
     transform: translateY(-5px);
+    scale: 1.1;
+}
+
+.section-meals{
+    padding: 0;
+    margin-top: -40px;
 }

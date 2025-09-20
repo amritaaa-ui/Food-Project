@@ -29,6 +29,7 @@ header {
     overflow: hidden;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -283,3 +284,48 @@ h3{
     margin-right: 10px;
 }
 
+.cust{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.row-cust{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 50px;
+
+}
+
+.section-testimonials{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('img/custback.avif');
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    margin-top: 40px;
+    position: relative;
+}
+
+cite{
+    font-size: 90%;
+    display: block;
+    margin-top: 25px;
+}
+
+blockquote::before{
+    content: '\201C';
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -3px;
+}

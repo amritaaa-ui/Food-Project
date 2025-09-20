@@ -13,6 +13,10 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .nav{
     max-width: 1140px;
     margin: 0 auto;
@@ -258,3 +262,24 @@ h3{
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
+
+.city-feature{
+    margin-bottom: 5px;
+}
+
+.box img{
+    margin-bottom: 20px;
+}
+
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+

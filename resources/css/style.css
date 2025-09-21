@@ -90,7 +90,7 @@ h1 {
 }
 
 .btn-full:active,
-.btn-full:hover {
+.btn-full:hover{
     border: 1px solid #cf6d17;
     color: white;
     transform: translateY(-3px);
@@ -339,59 +339,107 @@ blockquote::before {
     justify-content: center;
 }
 
-.section-plans{
+.section-plans {
     background-color: #f4f4f4;
 }
 
-.section-cities{
+.section-cities {
     background-color: #f4f4f4;
 }
 
-.plan-box{
+.plan-box {
     background-color: #fff;
     border-radius: 15px;
     width: 90%;
     margin-left: 5%;
 }
 
-.plan-box div{
+.plan-box div {
     padding: 15px;
     border-bottom: 1px solid #e8e8e8;
 }
 
-.plan-price{
+.plan-price {
     font-size: 300%;
     margin-bottom: 10px;
     font-weight: 100;
     color: #e67e22;
 }
 
-.plan-price-meal{
+.plan-price-meal {
     font-size: 80%;
 
 }
 
-.plan-price span{
+.plan-price span {
     font-size: 30%;
     font-weight: 300;
 
 }
 
-.plan-box ul{
+.plan-box ul {
     list-style: none;
 }
 
-.plan-box ul li{
+.plan-box ul li {
     padding: 5px 0px;
 }
 
-.plan-box div:last-child{
+.plan-box div:last-child {
     border: 0;
     text-align: center;
 }
 
-.plan-box div:first-child{
+.plan-box div:first-child {
     background-color: #fcfcfc;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+.row-con {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 40px;
+    margin-bottom: 30px;
+}
+
+.section-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100%;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+.submit-btn{
+    width: 125px;
+    padding: 7px 20px ;
+    text-align: center;
+    border-radius: 45px;
+    border: 1px solid #cf6d17;
+    outline: none;
+    background-color: #e67e22;
+    color: white;
+    font-size: 17px ;  
+    cursor: pointer;  
+}
+
+.submit-btn:hover,
+.submit-btn:active {
+    background-color: #cf6d17;
 }

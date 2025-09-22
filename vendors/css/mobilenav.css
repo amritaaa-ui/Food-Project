@@ -1,0 +1,53 @@
+/* Mobile Navbar */
+@media (max-width: 768px) {
+    .main-nav {
+        display: none; /* hide nav by default */
+        position: absolute;
+        top: 70px; /* adjust below logo */
+        left: 0;
+        width: 100%;
+        background: rgba(0,0,0,0.8);
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .main-nav li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .main-nav a:link,
+    .main-nav a:visited {
+        color: #fff;
+        font-size: 18px;
+    }
+
+    /* Hamburger Button */
+    .mobile-nav-icon {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 28px;
+        color: #333;
+        cursor: pointer;
+        z-index: 9999;
+    }
+}
+
+/* Desktop keep normal navbar */
+@media (min-width: 769px) {
+    .mobile-nav-icon {
+        display: none;
+    }
+
+    .main-nav {
+        display: flex;
+        position: static;
+        background: none;
+    }
+
+    .main-nav li {
+        margin: 0 20px;
+    }
+}

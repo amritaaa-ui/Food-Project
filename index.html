@@ -12,10 +12,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="vendors/css/queries.css">
+    <link rel="stylesheet" href="vendors/css/mobilenav.css">
 </head>
 
 <body>
     <header>
+        <div class="mobile-nav-icon">
+            &#9776; <!-- hamburger icon -->
+        </div>
+
         <nav>
             <div class="nav">
                 <img src="resources/img/lo.png" alt="logo" class="logo">
@@ -74,7 +79,7 @@
 
 
     <section class="section-meals">
-        <div class="row">
+        <div class="img-row">
             <img src="resources/img/img1.avif" class="img" alt="">
             <img src="resources/img/img2.avif" class="img" alt="">
             <img src="resources/img/img3.avif" class="img" alt="">
@@ -92,9 +97,9 @@
             <h2>How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
         <div class="row row-step">
-            <div class="box steps-box">
+           
                 <img src="resources/img/phone.png" class="app-screen" alt="Phone-img">
-            </div>
+           
             <div class="box steps-box">
                 <div class="works-step">
                     <div>1</div>
@@ -181,8 +186,7 @@
                 </div>
             </div>
     </section>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 
     <section class="section-testimonials">
         <div class="head">
@@ -350,7 +354,7 @@
     <footer>
         <div class="footer-row">
             <div class="col1">
-                <ul  class="footer-nav">
+                <ul class="footer-nav">
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Press</a></li>
@@ -359,20 +363,22 @@
                 </ul>
             </div>
             <div class="col2">
-                    <ul class="social-links">
-                        <li><ion-icon class="fb" name="logo-facebook"></ion-icon></li>
-                        <li><ion-icon class="twitter" name="logo-twitter"></ion-icon></li>
-                        <li><ion-icon class="google" name="logo-google"></ion-icon></li>
-                        <li><ion-icon class="insta" name="logo-instagram"></ion-icon></li>
-                    </ul>
+                <ul class="social-links">
+                    <li><ion-icon class="fb" name="logo-facebook"></ion-icon></li>
+                    <li><ion-icon class="twitter" name="logo-twitter"></ion-icon></li>
+                    <li><ion-icon class="google" name="logo-google"></ion-icon></li>
+                    <li><ion-icon class="insta" name="logo-instagram"></ion-icon></li>
+                </ul>
             </div>
         </div>
 
-            <p>Copyright &copy; 2015 by Omnifood. All rights reserved.</p>
+        <p>Copyright &copy; 2015 by Omnifood. All rights reserved.</p>
     </footer>
 
 
-
+    <script src="vendors/js/mobilenav.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

@@ -13,6 +13,10 @@
         text-align: center;
     }
 
+    .nav img {
+        padding: 5%;
+    }
+
     .main-nav {
         right: 0;
         margin-top: 20px;
@@ -34,6 +38,21 @@
 
     header {
         background-attachment: scroll;
+    }
+
+    .app-screen {
+        height: 300px;
+        width: auto;
+        position: relative;
+        left: -80px;
+    }
+
+    .row-step {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 56px;
     }
 
     .hero-text-box {
@@ -105,9 +124,21 @@
         margin: 10px 5px;
     }
 
-    .row .img {
-        width: 100%;
-        height: auto;
+    .img-row .img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .img-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+    }
+
+    .img-row .img img {
+        max-width: 30px;
+        height: 30px;
+        display: block;
     }
 
     blockquote {

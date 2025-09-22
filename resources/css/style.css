@@ -204,7 +204,7 @@ h3 {
 
 }
 
-.row .img {
+.img-row .img {
     height: 300px;
     width: 300px;
     margin: 20px 10px;
@@ -213,7 +213,7 @@ h3 {
 
 }
 
-.row .img:hover {
+.img-row .img:hover {
     transform: translateY(-5px);
     scale: 1.1;
 }

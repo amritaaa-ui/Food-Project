@@ -1,12 +1,11 @@
 /* Mobile Navbar */
 @media (max-width: 768px) {
     .main-nav {
-        display: none; /* hide nav by default */
+        display: none;
         position: absolute;
-        top: 70px; /* adjust below logo */
+        top: 70px; 
         left: 0;
         width: 100%;
-        background: rgba(0,0,0,0.8);
         text-align: center;
         padding: 20px 0;
     }
@@ -35,7 +34,7 @@
     }
 }
 
-/* Desktop keep normal navbar */
+/* normal on desktop */
 @media (min-width: 769px) {
     .mobile-nav-icon {
         display: none;

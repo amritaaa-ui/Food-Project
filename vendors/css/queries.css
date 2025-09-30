@@ -124,6 +124,11 @@
         margin: 10px 5px;
     }
 
+    .row-city{
+        position: relative;
+        right: -4px;
+    }
+
     .img-row .img {
         width: 100%;
         height: 80%;
@@ -134,7 +139,8 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         text-align: center;
-        /* margin: 0 40px; */
+        position: relative;
+        left: -10px;
     }
 
     .img-row .img img {

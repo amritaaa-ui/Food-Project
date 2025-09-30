@@ -14,9 +14,9 @@ html {
 }
 
 body {
-    overflow-x: hidden;
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 .nav {
@@ -204,13 +204,19 @@ h3 {
 
 }
 
+.img-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    left: 30px;
+}
+
 .img-row .img {
     height: 300px;
     width: 300px;
     margin: 20px 10px;
     border-radius: 10px;
     transition: all 0.5s ease;
-
 }
 
 .img-row .img:hover {
@@ -262,8 +268,9 @@ h3 {
 }
 
 .row-city {
-    /* position: relative;
-    left:-95px; */
+    position: relative;
+    right: 30px;
+    align-items: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
